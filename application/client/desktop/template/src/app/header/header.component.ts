@@ -7,11 +7,11 @@ import { Component, OnInit, Inject } from '@angular/core';
 })
 
 export class HeaderComponent implements OnInit {
-    private jwtToken: String='';
+    private jwtToken: String;
     constructor (
     ) { }
 
     ngOnInit() {
-        this.userId = sessionStorage.getItem('Id') || '{}';
+        this.userId = sessionStorage.getItem('Id');
     }
 }

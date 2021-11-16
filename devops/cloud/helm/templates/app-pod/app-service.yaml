@@ -24,37 +24,5 @@ spec:
     port: {{ .Values.service.systementry.port }}
     targetPort: {{ .Values.service.systementry.targetPort }}
 
-  - name: {{ .Values.service.systementry.name }}
-    port: {{ .Values.service.systementry.port }}
-    targetPort: {{ .Values.service.systementry.targetPort }}
-
-  - name: {{ .Values.service.systementry.name }}
-    port: {{ .Values.service.systementry.port }}
-    targetPort: {{ .Values.service.systementry.targetPort }}
-
-  - name: {{ .Values.service.systementry.name }}
-    port: {{ .Values.service.systementry.port }}
-    targetPort: {{ .Values.service.systementry.targetPort }}
-
-  - name: {{ .Values.service.systementry.name }}
-    port: {{ .Values.service.systementry.port }}
-    targetPort: {{ .Values.service.systementry.targetPort }}
-
-  - name: {{ .Values.service.systementry.name }}
-    port: {{ .Values.service.systementry.port }}
-    targetPort: {{ .Values.service.systementry.targetPort }}
-
-  - name: {{ .Values.service.systementry.name }}
-    port: {{ .Values.service.systementry.port }}
-    targetPort: {{ .Values.service.systementry.targetPort }}
-
-  - name: {{ .Values.service.systementry.name }}
-    port: {{ .Values.service.systementry.port }}
-    targetPort: {{ .Values.service.systementry.targetPort }}
-
-  - name: {{ .Values.service.systementry.name }}
-    port: {{ .Values.service.systementry.port }}
-    targetPort: {{ .Values.service.systementry.targetPort }}
-
   selector:
     name: {{ .Values.app.prefix }}-app

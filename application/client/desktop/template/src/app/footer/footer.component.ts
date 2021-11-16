@@ -7,7 +7,7 @@ import { Component, OnInit, Inject } from '@angular/core';
 })
 
 export class FooterComponent implements OnInit {
-    private jwtToken: String='';
+    private jwtToken: String;
     constructor (
     ) { }
 

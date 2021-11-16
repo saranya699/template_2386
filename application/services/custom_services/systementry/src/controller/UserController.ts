@@ -14,62 +14,6 @@ User.GpSEF(req, (response) => {
      res.json(response);
                 new CustomLogger().showLogger('info', 'Exit from UserController.ts: GpSEF');
     })}
-public GpSEF(req: Request, res: Response) {
-User.GpSEF(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into UserController.ts: GpSEF');
-     res.status(200);
-     res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from UserController.ts: GpSEF');
-    })}
-public GpSEF(req: Request, res: Response) {
-User.GpSEF(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into UserController.ts: GpSEF');
-     res.status(200);
-     res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from UserController.ts: GpSEF');
-    })}
-public GpSEF(req: Request, res: Response) {
-User.GpSEF(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into UserController.ts: GpSEF');
-     res.status(200);
-     res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from UserController.ts: GpSEF');
-    })}
-public GpSEF(req: Request, res: Response) {
-User.GpSEF(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into UserController.ts: GpSEF');
-     res.status(200);
-     res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from UserController.ts: GpSEF');
-    })}
-public GpSEF(req: Request, res: Response) {
-User.GpSEF(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into UserController.ts: GpSEF');
-     res.status(200);
-     res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from UserController.ts: GpSEF');
-    })}
-public GpSEF(req: Request, res: Response) {
-User.GpSEF(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into UserController.ts: GpSEF');
-     res.status(200);
-     res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from UserController.ts: GpSEF');
-    })}
-public GpSEF(req: Request, res: Response) {
-User.GpSEF(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into UserController.ts: GpSEF');
-     res.status(200);
-     res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from UserController.ts: GpSEF');
-    })}
-public GpSEF(req: Request, res: Response) {
-User.GpSEF(req, (response) => {
-                new CustomLogger().showLogger('info', 'Enter into UserController.ts: GpSEF');
-     res.status(200);
-     res.json(response);
-                new CustomLogger().showLogger('info', 'Exit from UserController.ts: GpSEF');
-    })}
 
 
 }

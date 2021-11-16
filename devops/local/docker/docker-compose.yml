@@ -93,14 +93,6 @@ services:
       - securitymanager
       - systemcredentialmanager
       - systementry
-      - systementry
-      - systementry
-      - systementry
-      - systementry
-      - systementry
-      - systementry
-      - systementry
-      - systementry
 
 
 
@@ -109,87 +101,7 @@ services:
     image: systementry-2386
     container_name: systementry-2386
     ports: 
-      - 8006:8006
-    env_file: .env
-    depends_on:
-      - mongo
-
-  systementry: 
-    build: ../../../application/services/custom_services/systementry
-    image: systementry-2386
-    container_name: systementry-2386
-    ports: 
-      - 8006:8006
-    env_file: .env
-    depends_on:
-      - mongo
-
-  systementry: 
-    build: ../../../application/services/custom_services/systementry
-    image: systementry-2386
-    container_name: systementry-2386
-    ports: 
-      - 8006:8006
-    env_file: .env
-    depends_on:
-      - mongo
-
-  systementry: 
-    build: ../../../application/services/custom_services/systementry
-    image: systementry-2386
-    container_name: systementry-2386
-    ports: 
-      - 8006:8006
-    env_file: .env
-    depends_on:
-      - mongo
-
-  systementry: 
-    build: ../../../application/services/custom_services/systementry
-    image: systementry-2386
-    container_name: systementry-2386
-    ports: 
-      - 8006:8006
-    env_file: .env
-    depends_on:
-      - mongo
-
-  systementry: 
-    build: ../../../application/services/custom_services/systementry
-    image: systementry-2386
-    container_name: systementry-2386
-    ports: 
-      - 8006:8006
-    env_file: .env
-    depends_on:
-      - mongo
-
-  systementry: 
-    build: ../../../application/services/custom_services/systementry
-    image: systementry-2386
-    container_name: systementry-2386
-    ports: 
-      - 8006:8006
-    env_file: .env
-    depends_on:
-      - mongo
-
-  systementry: 
-    build: ../../../application/services/custom_services/systementry
-    image: systementry-2386
-    container_name: systementry-2386
-    ports: 
-      - 8006:8006
-    env_file: .env
-    depends_on:
-      - mongo
-
-  systementry: 
-    build: ../../../application/services/custom_services/systementry
-    image: systementry-2386
-    container_name: systementry-2386
-    ports: 
-      - 8006:8006
+      - 8015:8015
     env_file: .env
     depends_on:
       - mongo

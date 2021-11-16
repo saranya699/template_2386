@@ -54,56 +54,8 @@ service:
   systementry: 
     name: systementry
     type: NodePort
-    port: 8006
-    targetPort: 8006
-
-  systementry: 
-    name: systementry
-    type: NodePort
-    port: 8006
-    targetPort: 8006
-
-  systementry: 
-    name: systementry
-    type: NodePort
-    port: 8006
-    targetPort: 8006
-
-  systementry: 
-    name: systementry
-    type: NodePort
-    port: 8006
-    targetPort: 8006
-
-  systementry: 
-    name: systementry
-    type: NodePort
-    port: 8006
-    targetPort: 8006
-
-  systementry: 
-    name: systementry
-    type: NodePort
-    port: 8006
-    targetPort: 8006
-
-  systementry: 
-    name: systementry
-    type: NodePort
-    port: 8006
-    targetPort: 8006
-
-  systementry: 
-    name: systementry
-    type: NodePort
-    port: 8006
-    targetPort: 8006
-
-  systementry: 
-    name: systementry
-    type: NodePort
-    port: 8006
-    targetPort: 8006
+    port: 8015
+    targetPort: 8015
 
 
 deployment:
@@ -130,38 +82,6 @@ deployment:
   desktop:
      name: desktop
      image: geppettotest/template-desktop:1.0
-  systementry: 
-    name: systementry
-    image: geppettotest/template-systementry:1.0
-
-  systementry: 
-    name: systementry
-    image: geppettotest/template-systementry:1.0
-
-  systementry: 
-    name: systementry
-    image: geppettotest/template-systementry:1.0
-
-  systementry: 
-    name: systementry
-    image: geppettotest/template-systementry:1.0
-
-  systementry: 
-    name: systementry
-    image: geppettotest/template-systementry:1.0
-
-  systementry: 
-    name: systementry
-    image: geppettotest/template-systementry:1.0
-
-  systementry: 
-    name: systementry
-    image: geppettotest/template-systementry:1.0
-
-  systementry: 
-    name: systementry
-    image: geppettotest/template-systementry:1.0
-
   systementry: 
     name: systementry
     image: geppettotest/template-systementry:1.0
